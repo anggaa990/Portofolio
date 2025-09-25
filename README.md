@@ -21,5 +21,5 @@ Website ini menampilkan hero section, about section, dan projects section sesuai
 - JavaScript = Interaktivitas sederhana  
 
 3.Struktur Folder
--index.html
--README.md
+- Portofolio.html
+- README.md
