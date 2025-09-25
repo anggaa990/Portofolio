@@ -94,7 +94,6 @@ header nav a:hover {
 section {
   padding: 4rem 2rem;
   text-align: center;
-  transition: all 0.5s ease;
 }
 
 section h2 {
@@ -107,11 +106,22 @@ section h2 {
   margin: auto;
 }
 
-.projects-grid {
+.projects-grid, .certified-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
+}
+
+.certified-grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.certified-grid img:hover {
+  transform: scale(1.05);
 }
 
 .card {
@@ -176,4 +186,83 @@ footer {
   background: var(--bg-card);
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+/* Tabs */
+.tab-buttons {
+  margin-top: 1rem;
+}
+
+.tab-btn {
+  background: var(--bg-card);
+  color: var(--text-light);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tab-btn.active {
+  background: linear-gradient(135deg, var(--secondary), var(--primary));
+}
+
+.tab-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.tab-content {
+  opacity: 0;
+  transform: translateX(100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.tab-content.active {
+  opacity: 1;
+  transform: translateX(0);
+  position: relative;
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-img {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+  animation: zoom 0.3s ease;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.7);}
+  to {transform: scale(1);}
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
 }
