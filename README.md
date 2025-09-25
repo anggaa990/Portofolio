@@ -10,7 +10,7 @@ Proyek ini merupakan sebuah **website portofolio pribadi** yang dikembangkan men
 2. About Section berisi deskripsi singkat mengenai identitas dan minat penulis.
 3. Projects Section yang menampilkan beberapa proyek dalam bentuk kartu (card) interaktif.
 4. Skills Section yang menampilkan keterampilan utama (HTML, CSS, JavaScript, Python, C#) disertai ikon.
-5. Contact Section yang menyediakan tautan langsung ke WhatsApp dan Instagram.
+5. Contact Section yang menyediakan tautan langsung ke WhatsApp, Instagram, GitHub, dan Email.
 6. Navigasi Sticky Header dengan efek transisi gradasi warna saat halaman discroll.
 7. Tema Gelap (Dark Theme) yang konsisten dengan transisi warna yang halus.
 8. Efek Smooth Scroll antar section untuk kenyamanan navigasi.
