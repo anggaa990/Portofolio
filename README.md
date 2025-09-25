@@ -1,25 +1,30 @@
-TUGAS PWEB
-
-# Portfolio
+## Portofolio 
 # Nama : Prayudha Afrizal Erlangga
 # NIM  : 242410103062
 
-Website portofolio ini dibuat menggunakan **HTML, CSS, dan JavaScript**.  
-Website ini menampilkan hero section, about section, dan projects section sesuai dengan ketentuan tugas.
+# 1. Deskripsi Singkat
+Proyek ini merupakan sebuah **website portofolio pribadi** yang dikembangkan menggunakan **HTML, CSS, dan JavaScript**. Website ini dirancang untuk memperkenalkan profil singkat, keterampilan, serta beberapa proyek yang pernah dibuat. Selain itu, website dilengkapi dengan tampilan modern bergaya **dark theme** dan transisi halus untuk meningkatkan pengalaman pengguna.
 
-1.Fitur
-- Hero Section = Perkenalan singkat dengan tombol navigasi ke project.  
-- About Section = Deskripsi singkat tentang diri saya.  
-- Projects Section = Beberapa contoh project yang pernah dibuat.  
-- Footer Dinamis = Menampilkan tahun otomatis dengan JavaScript.  
-- Navbar Interaktif = Background navbar berubah saat di-scroll.  
-- Desain Responsif = Tampilan otomatis menyesuaikan layar HP maupun desktop.  
+# 2. Fitur Utama
+1. Halaman Utama (Hero Section) dengan efek animasi pengetikan.
+2. About Section berisi deskripsi singkat mengenai identitas dan minat penulis.
+3. Projects Section yang menampilkan beberapa proyek dalam bentuk kartu (card) interaktif.
+4. Skills Section yang menampilkan keterampilan utama (HTML, CSS, JavaScript, Python, C#) disertai ikon.
+5. Contact Section yang menyediakan tautan langsung ke WhatsApp dan Instagram.
+6. Navigasi Sticky Header dengan efek transisi gradasi warna saat halaman discroll.
+7. Tema Gelap (Dark Theme) yang konsisten dengan transisi warna yang halus.
+8. Efek Smooth Scroll antar section untuk kenyamanan navigasi.
 
-2.Kode yang digunakan
-- HTML = Struktur konten  
-- CSS = Styling dan layout (responsif & estetik)  
-- JavaScript = Interaktivitas sederhana  
+# 3. Teknologi yang Digunakan
+- HTML untuk struktur konten.
+- CSS (Flexbox, Grid, Transition, dan Gradient) untuk tampilan dan tata letak.
+- JavaScript untuk interaktivitas (efek pengetikan dan perubahan header saat discroll).
+- Font Awesome (Fa) sebagai pustaka ikon.
 
-3.Struktur Folder
-- index.html
-- README.md
+# 4. Struktur Direktori
+- index.html    # Halaman utama portofolio
+- style.css     # Stylesheet untuk tampilan
+- script.js     # JavaScript untuk interaktivitas
+- README.md     # Penjelasan projek
+- WhatsApp: [Klik di sini](https://wa.me/6285803681573)  
+- Instagram: [@afrzlgga](https://instagram.com/afrzlgga)
