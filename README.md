@@ -26,5 +26,3 @@ Proyek ini merupakan sebuah **website portofolio pribadi** yang dikembangkan men
 - style.css     # Stylesheet untuk tampilan
 - script.js     # JavaScript untuk interaktivitas
 - README.md     # Penjelasan projek
-- WhatsApp: [Klik di sini](https://wa.me/6285803681573)  
-- Instagram: [@afrzlgga](https://instagram.com/afrzlgga)
