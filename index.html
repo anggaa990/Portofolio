@@ -24,8 +24,9 @@
   <section class="hero">
     <h1 id="typing"></h1>
     <p>Mahasiswa yang sedang belajar Web Development. Selamat datang di portofolio saya.</p>
-    <a href="#projects" class="btn">🚀 My Projects</a>
+    <a href="CV_Angga.pdf" download class="btn btn-outline">📄 Here's my CV</a>
   </section>
+
 
   <section id="about" class="about">
     <h2>✨ About Me</h2>
@@ -59,36 +60,63 @@
   </section>
 
   <section id="projects" class="projects">
-    <h2>💻 Projects</h2>
-    <div class="projects-grid">
-      <div class="card">
-        <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
-        <h3>Project 1</h3>
-        <p>Website sederhana dengan HTML, CSS, dan JavaScript.</p>
+    <h2>💻 Projects & Certificate</h2>
+
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="projects">Projects</button>
+      <button class="tab-btn" data-tab="certified">Certificate</button>
+    </div>
+
+    <div class="tab-container">
+      <div class="tab-content active" id="projects-content">
+        <div class="projects-grid">
+          <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+            <h3>Project 1</h3>
+            <p>Website sederhana dengan HTML, CSS, dan JavaScript.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>Project 2</h3>
+            <p>Aplikasi pengelolaan donor darah dengan C# dan PostgreSQL.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Project 3</h3>
+            <p>Aplikasi CRUD sederhana pengelolaan bahan pangan dengan Python.</p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <div class="card-icon"><i class="fa-solid fa-database"></i></div>
-        <h3>Project 2</h3>
-        <p>Aplikasi pengelolaan donor darah dengan C# dan PostgreSQL.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-        <h3>Project 3</h3>
-        <p>Aplikasi CRUD sederhana pengelolaan bahan pangan dengan Python.</p>
+
+      <div class="tab-content" id="certified-content">
+        <div class="certified-grid">
+          <img src="Cert1.png" alt="Sertifikat 1">
+          <img src="Cert2.png" alt="Sertifikat 2">
+          <img src="Cert3.png" alt="Sertifikat 3">
+          <img src="Cert4.png" alt="Sertifikat 4">
+          <img src="Cert5.png" alt="Sertifikat 5">
+        </div>
       </div>
     </div>
   </section>
 
   <section id="contact" class="contact">
-    <h2>📞 Contact</h2>
+    <h2>📞Contact Me</h2>
     <p>Hubungi saya melalui:</p>
     <a href="https://wa.me/6285803681573" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a> 
-    <a href="https://instagram.com/afrzlgga" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> 
+    <a href="https://instagram.com/afrzlgga" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://github.com/anggaa990" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="mailto:afrizalyudha500@gmail.com"><i class="fas fa-envelope"></i> Email</a>
   </section>
 
   <footer>
     © <span id="year"></span> Prayudha Afrizal Erlangga. Made with 🤖
   </footer>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Sertifikat">
+  </div>
 
   <script src="script.js"></script>
 </body>
